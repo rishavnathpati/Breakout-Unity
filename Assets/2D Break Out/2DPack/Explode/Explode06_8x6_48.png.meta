@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: c7074986bead643d39f7fb711483640d
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 1
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 0
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Explode06_8x6_48_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1401
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1362
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1324
+        width: 170
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_3
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1318
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1313
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1309
+        width: 199
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_6
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1305
+        width: 207
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_7
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1301
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1042
+        width: 222
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1038
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1036
+        width: 234
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_11
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1033
+        width: 240
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_12
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1031
+        width: 243
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1029
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_14
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1028
+        width: 250
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_15
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1026
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 1792
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 512
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_19
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 514
+        width: 254
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_20
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 514
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_21
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 514
+        width: 252
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_22
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 516
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 518
+        width: 250
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_24
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 526
+        width: 242
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 268
+        width: 242
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 268
+        width: 243
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 271
+        width: 239
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 271
+        width: 236
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 271
+        width: 235
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_30
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 270
+        width: 233
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_31
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 270
+        width: 233
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_32
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 269
+        width: 229
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 14
+        width: 224
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 14
+        width: 222
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 16
+        width: 208
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_36
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 29
+        width: 192
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_37
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 28
+        width: 183
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_38
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 27
+        width: 179
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_39
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 27
+        width: 157
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explode06_8x6_48_40
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 27
+        width: 154
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

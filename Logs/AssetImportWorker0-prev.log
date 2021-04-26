@@ -1,0 +1,125 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.685; Version 2009; 64bit' Language: 'en' Physical Memory: 8078 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Breakout
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56641
+Successfully changed project path to: D:/Unity/Breakout
+D:/Unity/Breakout
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Breakout/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001628 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.857 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 2.405400 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.996400 ms  DeleteObjects: 0.134800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/white_checked_lines_with_black_background_hd_black_aesthetic-t2.jpg
+  artifactKey: Guid(f504907a188b7ce41bfa83f9c0fc52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/white_checked_lines_with_black_background_hd_black_aesthetic-t2.jpg using Guid(f504907a188b7ce41bfa83f9c0fc52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39df7fe399449a4145ed30b9c3c5aacb') in 0.126327 seconds
+  Import took 0.129829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.278415 seconds.
+  path: Assets/2D Break Out/background.jpg
+  artifactKey: Guid(f504907a188b7ce41bfa83f9c0fc52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Break Out/background.jpg using Guid(f504907a188b7ce41bfa83f9c0fc52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5355131ba7656d2297fb42ffe7ff217b') in 0.032537 seconds
+  Import took 0.036054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.291651 seconds.
+  path: Assets/2D Break Out/background.jpg
+  artifactKey: Guid(f504907a188b7ce41bfa83f9c0fc52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Break Out/background.jpg using Guid(f504907a188b7ce41bfa83f9c0fc52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1c5552b25b015ab97622181c6968ee') in 0.033004 seconds
+  Import took 0.036293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.175593 seconds.
+  path: Assets/2D Break Out/2DPack/Gui/Banner_A.png
+  artifactKey: Guid(799ca331f371c4df9a5a8beb15d6ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Break Out/2DPack/Gui/Banner_A.png using Guid(799ca331f371c4df9a5a8beb15d6ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5718f83aa626ce23feca511cd1584e') in 0.168115 seconds
+  Import took 0.171857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/2D Break Out/2DPack/Gui/Banner_B.png
+  artifactKey: Guid(281831c5d03884b11a30312b5dc743b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Break Out/2DPack/Gui/Banner_B.png using Guid(281831c5d03884b11a30312b5dc743b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee90f2f3414d54e0787d99cf2f10e8b') in 0.065823 seconds
+  Import took 0.069175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2D Break Out/2DPack/Gui/Banner_A.png
+  artifactKey: Guid(799ca331f371c4df9a5a8beb15d6ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Break Out/2DPack/Gui/Banner_A.png using Guid(799ca331f371c4df9a5a8beb15d6ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5718f83aa626ce23feca511cd1584e') in 0.032308 seconds
+  Import took 0.035343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.949388 seconds.
+  path: Assets/2D Break Out/2DPack/Gui/Banner_B.png
+  artifactKey: Guid(281831c5d03884b11a30312b5dc743b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Break Out/2DPack/Gui/Banner_B.png using Guid(281831c5d03884b11a30312b5dc743b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee90f2f3414d54e0787d99cf2f10e8b') in 0.009139 seconds
+  Import took 0.012836 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
