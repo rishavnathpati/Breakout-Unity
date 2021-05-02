@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class BallManager : MonoBehaviour
@@ -31,6 +32,15 @@ public class BallManager : MonoBehaviour
     private Rigidbody2D initialBallRb;
     public float initialBallSpeed;
     public List<Ball> Balls { get; set; }
+
+    public void ResetBalls()
+    {
+        foreach(var ball in this.Balls.ToList())
+        {
+            Destroy(ball.gameObject);
+        }
+        InitialBall();
+    }
 
     // Start is called before the first frame update
     void Start()
