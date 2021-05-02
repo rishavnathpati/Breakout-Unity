@@ -1,29 +1,29 @@
 using UnityEngine;
 public class Paddle : MonoBehaviour
 {
-    #region Singleton
-
     private static Paddle _instance;
+
     public static Paddle Instance => _instance;
 
     private void Awake()
     {
-        //if (_instance == null)
-        //{
-        //    Destroy(gameObject);
-        //}
-        //else
-        //{
-        _instance = this;
-        //}
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    #endregion
     private Camera mainCamera;
 
     private float paddlePosy;
 
     private SpriteRenderer sr;
+
+    private Vector3 paddleLength;
 
     private void Start()
     {
@@ -35,6 +35,8 @@ public class Paddle : MonoBehaviour
     private void Update()
     {
         PaddleMovement();
+        //GetComponent.< Collider > ().bounds.size
+        paddleLength = GetComponent<Collider2D>().bounds.size;
     }
 
     private void PaddleMovement()
@@ -55,15 +57,17 @@ public class Paddle : MonoBehaviour
             Vector3 pointOfContactWithPaddle = collision.contacts[0].point;
             Vector3 paddleCenter = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y);
 
-            ballRb.velocity = Vector2.zero;
-            float diff = paddleCenter.x - pointOfContactWithPaddle.x;
+            //ballRb.velocity = Vector2.zero;
+            float diff = (paddleCenter.x - pointOfContactWithPaddle.x) / paddleLength.x; // to normalise length
+            Debug.Log(paddleLength.x + " " + diff);
+
             if (pointOfContactWithPaddle.x < paddleCenter.x)
             {
-                ballRb.AddForce(new Vector2(-(Mathf.Abs(diff * 10)), BallManager.Instance.initialBallSpeed),ForceMode2D.Impulse);
+                //ballRb.AddForce(new Vector2(-Mathf.Sqrt((Mathf.Abs(diff))* BallManager.Instance.initialBallSpeed* BallManager.Instance.initialBallSpeed), Mathf.Sqrt(BallManager.Instance.initialBallSpeed*BallManager.Instance.initialBallSpeed * (1 - diff))), ForceMode2D.Impulse);
             }
             else
             {
-                ballRb.AddForce(new Vector2((Mathf.Abs(diff * 10)), BallManager.Instance.initialBallSpeed), ForceMode2D.Impulse);
+                //ballRb.AddForce(new Vector2(Mathf.Sqrt((Mathf.Abs(diff)) * BallManager.Instance.initialBallSpeed * BallManager.Instance.initialBallSpeed), Mathf.Sqrt(BallManager.Instance.initialBallSpeed * BallManager.Instance.initialBallSpeed * (1 - diff))), ForceMode2D.Impulse);
             }
         }
     }

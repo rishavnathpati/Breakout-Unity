@@ -13,14 +13,14 @@ public class BallManager : MonoBehaviour
 
     private void Awake()
     {
-        //if (_instance == null)
-        //{
-        //    Destroy(gameObject);
-        //}
-        //else
-        //{
-        _instance = this;
-        //}
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     #endregion
@@ -29,7 +29,7 @@ public class BallManager : MonoBehaviour
     private Ball ballPrefab;
     private Ball initialBall;
     private Rigidbody2D initialBallRb;
-    public float initialBallSpeed=250f;
+    public float initialBallSpeed;
     public List<Ball> Balls { get; set; }
 
     // Start is called before the first frame update

@@ -45,9 +45,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Image
+    uniqueID: 849143515
+    locked: 0
   - name: Background
     uniqueID: 3052527523
     locked: 0
   - name: PaddleBallBrick
     uniqueID: 4148095699
+    locked: 0
+  - name: Brick Layer
+    uniqueID: 2159370043
     locked: 0
